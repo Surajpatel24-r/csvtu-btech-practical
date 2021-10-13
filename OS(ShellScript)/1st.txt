@@ -1,0 +1,32 @@
+Study the features of Linux environment, basic Linux
+commands(echo,who,date,pwd,cd,mkdir,rmdir,ls,cp,mv,rm,cat,more,wc,find,tail,head,sort,nl,uniq,gr
+ep,egrep,fgrep,cut,paste,join,tee,comm,cmp,diff,tr); also document the syntax and semantics of
+those commands. (any 10)
+Solution:-
+1.) echo command :- the “echo” commands helps us move some data, usually text into a file. For
+example, if you want to write a new file(text file) ar add to an already made text, you just need to
+type it, “echo hello, my name is Ram>>Name.txt”. No need to separate the spaces by using the
+backward slash here, because we put is two triangular brackets where we finish writing.
+2.) cat command :- Use the ‘cat’ command to display the contents of a file. It is usually used to
+easily view programs.
+3.) ls command :- Use the ‘ls’ command to know what files are in the directory you are in. You can
+see all the hidden files by using the command “ls”.
+4.) mkdir command :- Use the ‘mkdir’ command when you need to create a folder or a directory.
+For example, if you want to make a directory called “CSE”, then you can type “mkdir CSE”.
+5.) rmdir command :- Use the ‘rmdir’ command to delete a directory. But rmdir can only be used
+to delete an empty directory.
+6.) rm command :- Use the ‘rm’ command to delete files and directories. Use “rm-r” to delete just
+the directory. It deletes both the folder and the files it contains when using only the ‘rm’ command.
+7.) cd command :- Use the “cd” command to go to a directory. For example, if you are in the home
+folder, and you want to go to the downloads folder, then you can type “cd path”.
+→This command is case sensitive, type the name of the folder exactly.
+→If you just type “cd” and press enter, it takes you to the home directory.
+→To go back from a folder to the previous folder type “cd ..”. Two dots represents back.
+8.) pwd command - When you first open the terminal, you are in the home directory of your user.
+To know which directory you are, you can use the “pwd” command. It gives us the absolutepath,
+which means the path that starts from the root. The root is the base of the Linux file system. It is
+devoted to a forward slash ( / ). The user directory is usually something like “/home/username/”.
+9.) head command :- Use the “head” command to display the starting content of a file. By default,
+it displays the starting 10 lines of any file.
+10.) date command - Use the “date” command to display date, time, time zone, etc. It is also used
+to set the date and time of the Linux system.
